@@ -1,0 +1,146 @@
+personal {
+    padding: 50px;
+    text-align: left;
+}
+
+.prof {
+    position: absolute; 
+    top: 200px;
+    left: 1090px;
+}
+
+.prof img {
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* ===== ABOUT PAGE ===== */
+
+.section {
+  padding: 2rem 1.5rem;
+}
+
+/* Personal Sections */
+.personal {
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+}
+
+.personal h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.personal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.personal h3 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Lists */
+.personal ul {
+  padding-left: 1.2rem;
+}
+
+.personal li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+/* Skills Summary */
+.skills-summary {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 750px;
+}
+
+/* Horizontal Line */
+hr {
+  max-width: 900px;
+  margin: 2rem auto;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* ===== CV SECTION ===== */
+
+.cv-buttons {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cv-btn {
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* CV Button Styles */
+.cv-btn.view {
+  background-color: #000;
+  color: #fff;
+}
+
+.cv-btn.download {
+  border: 2px solid #000;
+  color: #000;
+}
+
+/* Hover Effect */
+.cv-btn:hover {
+  opacity: 0.85;
+}
+
+/* Embedded CV Viewer */
+.cv-viewer {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 800px;
+  border: 1px solid #ccc;
+}
+
+.cv-viewer iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cv-viewer {
+    height: 500px;
+  }
+}
